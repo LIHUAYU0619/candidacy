@@ -1,0 +1,282 @@
+html {
+  margin:0;
+  /* padding:0; */
+  font-family: Helvetica Neue;
+
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+
+.info{
+	position:fixed;
+	top:8px;
+	right:5px;
+	/* width:600px; */
+  width:560px;
+	border-color: pink;
+	line-height:110%;
+  font-family: Helvetica Neue;
+  /* text-align:justify */
+  /* font-family: arial; */
+  /* letter-spacing:0.2px; */
+  /* font-family: sans-serif; */
+
+}
+
+p{
+ font-family: Helvetica Neue;
+ /* font-family: arial; */
+ position:relative;
+ top:10px;
+ width: 1100px;
+ line-height:110%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1080px;
+  position: relative;
+  margin:0;
+  padding:0;
+  left:0px;
+
+}
+
+
+.mySlides4{
+  width:600px;
+}
+
+
+.b-1{
+  font-size: 620px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.b-1 .next{
+  right:500px;
+}
+
+
+.b-2{
+  font-size: 500px;
+  opacity: 0;
+  cursor: pointer;
+  /* bottom:1000px; */
+}
+
+.b-2 .next{
+  right:120px;
+}
+
+.b-3{
+  font-size: 550px;
+  opacity: 0;
+  cursor: pointer;
+  top:-250px;
+  /* bottom:1000px; */
+}
+
+.b-3 .next{
+  right:140px;
+}
+
+.b-4{
+  font-size: 650px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:200px; */
+  bottom:100px;
+}
+
+.b-4 .next{
+  right:100px;
+}
+
+.b-5{
+  font-size: 600px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:200px; */
+  bottom:10px;
+}
+
+.b-5 .next{
+  right:100px;
+}
+
+.b-6{
+  font-size: 650px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:200px; */
+  bottom:10px;
+}
+
+.b-6 .next{
+  right:350px;
+}
+
+.b-7{
+  font-size: 600px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:200px; */
+  bottom:10px;
+}
+
+.b-7 .next{
+  right:80px;
+}
+
+.b-8{
+  font-size: 600px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:200px; */
+  bottom:10px;
+}
+
+.b-8 .next{
+  right:20px;
+}
+
+.b-9{
+  font-size: 640px;
+  opacity: 0;
+  /* top: -30px; */
+  cursor: pointer;
+  /* top:200px; */
+  bottom:10px;
+}
+
+.b-9 .next{
+  right:400px;
+}
+
+.b-10{
+  font-size: 830px;
+  opacity: 0;
+  /* top: -30px; */
+  cursor: pointer;
+  /* top:200px; */
+  /* bottom:10px; */
+}
+
+.b-10 .next{
+  right:300px;
+}
+
+.b-11{
+  visibility: hidden;
+  font-size: 830px;
+  opacity: 0;
+  /* top: -30px; */
+  cursor: pointer;
+  /* top:200px; */
+  /* bottom:10px; */
+}
+
+.b-11 .next{
+  right:300px;
+}
+
+.b-12{
+  /* visibility: hidden; */
+  font-size: 620px;
+  opacity: 0;
+  /* top: -30px; */
+  cursor: pointer;
+  /* top:200px; */
+  /* bottom:10px; */
+}
+
+.b-12 .next{
+  right:400px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  /* cursor: url('http://www.rw-designer.com/cursor-extern.php?id=88738'),default; */
+  position:absolute;
+  top: -30px;
+  color: red;
+  /* font-size: 700px; */
+  transition: 0.6s ease;
+  /* width:50%; */
+  /* height:100%; */
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: grey;
+  /* opacity: 0; */
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 10px;
+}
+
+
+
+
+
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -25px;
+  left:20px;
+  font-family: Helvetica Neue;
+}
+
+.one{
+    text-decoration:none;
+    /* color:blue; */
+}
+
+a{
+  text-decoration:none;
+  cursor: pointer;
+}
+
+a:hover{
+  color:white;
+  /* cursor: grabbing; */
+}
+
+a:visited {
+  color: blue;
+}
+
+a:visited:hover{
+  color:white;
+}
+
+
+.back{
+  position:fixed;
+  left:10px;
+  bottom:10px;
+}
+
+
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
