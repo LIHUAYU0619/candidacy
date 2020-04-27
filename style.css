@@ -44,7 +44,7 @@ p{
 .text{
   max-width: 1100px;
   padding-top:8px;
-  padding-bottom: 12px;;
+  padding-bottom: 7px;;
 }
 }
 
@@ -65,7 +65,7 @@ p{
 
 
 .b-1{
-  font-size: 620px;
+  font-size: 600px;
   opacity: 0;
   cursor: pointer;
 }
@@ -76,7 +76,7 @@ p{
 
 
 .b-2{
-  font-size: 500px;
+  font-size: 480px;
   opacity: 0;
   cursor: pointer;
   /* bottom:1000px; */
@@ -147,7 +147,7 @@ p{
 }
 
 .b-8{
-  font-size: 600px;
+  font-size: 590px;
   opacity: 0;
   cursor: pointer;
   /* top:200px; */
@@ -200,7 +200,7 @@ p{
 
 .b-12{
   /* visibility: hidden; */
-  font-size: 620px;
+  font-size: 600px;
   opacity: 0;
   /* top: -30px; */
   cursor: pointer;
@@ -209,7 +209,7 @@ p{
 }
 
 .b-12 .next{
-  right:400px;
+  right:300px;
 }
 
 /* Next & previous buttons */
