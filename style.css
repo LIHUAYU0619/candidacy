@@ -339,12 +339,10 @@ cursor:zoom-in;
 }
 
 .aa{
-  display:inline-block;
-  opacity: 0;
+  display:none;
   position:fixed;
   z-index: 999;
   width: 40%;
-  position: fixed;
 	top:85%;
 	left:78%;
 	transform:translate(-50%, -50%);
@@ -352,7 +350,7 @@ cursor:zoom-in;
 
 .hover-a:hover .aa{
   /* display:block; */
-  opacity:1;
+  display:block;
 }
 
 
