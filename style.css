@@ -278,6 +278,31 @@ p{
   left:10px;
 }
 
+.b-16{
+  /* visibility: hidden; */
+  font-size: 500px;
+  opacity: 0;
+  /* top: -30px; */
+  cursor: pointer;
+  /* top:200px; */
+  /* bottom:10px; */
+}
+
+.b-16 .next{
+  right:100px;
+  left:10px;
+}
+
+
+.left{
+  position: fixed;
+  bottom:0;
+  right:0;
+  margin:0;
+  padding:0;
+}
+
+
 
 
 
