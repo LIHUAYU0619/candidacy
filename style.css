@@ -94,18 +94,22 @@ p{
 
 .b-2 .next{
   right:120px;
+  left:10px;
 }
 
 .b-3{
   font-size: 550px;
   opacity: 0;
   cursor: pointer;
-  top:-250px;
+  /* top:100px; */
+  bottom:10px;
   /* bottom:1000px; */
 }
 
 .b-3 .next{
   right:140px;
+  left:10px;
+  /* left:5px; */
 }
 
 .b-4{
@@ -118,6 +122,7 @@ p{
 
 .b-4 .next{
   right:100px;
+  left:10px;
 }
 
 .b-5{
@@ -130,6 +135,7 @@ p{
 
 .b-5 .next{
   right:100px;
+  left:10px;
 }
 
 .b-6{
@@ -142,6 +148,7 @@ p{
 
 .b-6 .next{
   right:350px;
+  left:10px;
 }
 
 .b-7{
@@ -154,6 +161,7 @@ p{
 
 .b-7 .next{
   right:80px;
+  left:10px;
 }
 
 .b-8{
@@ -166,6 +174,7 @@ p{
 
 .b-8 .next{
   right:20px;
+  left:10px;
 }
 
 .b-9{
@@ -220,6 +229,7 @@ p{
 
 .b-12 .next{
   right:300px;
+  left:10px;
 }
 
 .b-13{
@@ -234,6 +244,7 @@ p{
 
 .b-13 .next{
   right:100px;
+  left:10px;
 }
 
 .b-14{
@@ -263,6 +274,7 @@ p{
 
 .b-15 .next{
   right:100px;
+  left:10px;
 }
 
 
