@@ -234,7 +234,7 @@ p{
 
 .b-13{
   /* visibility: hidden; */
-  font-size: 600px;
+  font-size: 510px;
   opacity: 0;
   /* top: -30px; */
   cursor: pointer;
@@ -244,7 +244,7 @@ p{
 
 .b-13 .next{
   right:100px;
-  /* left:10px; */
+  left:10px;
 }
 
 .b-14{
@@ -259,6 +259,7 @@ p{
 
 .b-14 .next{
   right:400px;
+  left:10px;
 }
 
 
