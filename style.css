@@ -360,6 +360,21 @@ p{
   /* bottom:10px; */
 }
 
+.b-21 .next{
+  right:100px;
+  left:10px;
+}
+
+.b-21{
+  /* visibility: hidden; */
+  font-size: 500px;
+  opacity: 0;
+  /* top: -30px; */
+  cursor: pointer;
+  /* top:200px; */
+  /* bottom:10px; */
+}
+
 
 .left{
   position: fixed;
